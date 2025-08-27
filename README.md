@@ -36,7 +36,7 @@ Herramienta de detección y explotación de slugs ocultos generados por el plugi
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/AndreewNR/Bypass_iThemesSecurity.git
+git clone https://github.com/AndreewNR/Bypass_IthemeSecurity.git
 cd Bypass_iThemesSecurity
 ```
 
@@ -79,5 +79,6 @@ window.location.href = "/wp-login.php";
 Esta herramienta es solo para fines educativos y auditorías autorizadas.
 El uso no ético o en sistemas sin permiso explícito podría violar leyes locales.
 `Autores y colaboradores no se hacen responsables del uso indebido de este software.`
+
 
 
