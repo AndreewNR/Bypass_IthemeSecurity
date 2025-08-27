@@ -80,3 +80,4 @@ Esta herramienta es solo para fines educativos y auditorías autorizadas.
 El uso no ético o en sistemas sin permiso explícito podría violar leyes locales.
 `Autores y colaboradores no se hacen responsables del uso indebido de este software.`
 
+
